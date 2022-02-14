@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/boton1"
+        android:id="@+id/btnCrear"
         android:enabled="true"
         android:icon="@drawable/ic_add"
-        android:title="Boton1"/>
+        android:title="Añadir"/>
     <item
-        android:id="@+id/boton2"
+        android:id="@+id/btnVer"
         android:enabled="true"
-        android:icon="@drawable/ic_add"
-        android:title="Boton2"/>
+        android:icon="@drawable/ic_ver"
+        android:title="Ver"/>
+    <item
+        android:id="@+id/btnSalir"
+        android:enabled="true"
+        android:icon="@drawable/ic_salir"
+        android:title="Salir"/>
 </menu>

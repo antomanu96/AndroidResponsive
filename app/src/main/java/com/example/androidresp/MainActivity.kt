@@ -21,12 +21,16 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNavigation.setOnNavigationItemSelectedListener { item ->
 
             when (item.itemId) {
-                R.id.boton1 -> {
+                R.id.btnCrear -> {
                     Log.d("BOTON1------->", "PULSADO")
                     true
                 }
-                R.id.boton2 -> {
+                R.id.btnVer -> {
                     Log.d("BOTON2------->", "PULSADO")
+                    true
+                }
+                R.id.btnSalir -> {
+                    Log.d("BOTON3------->", "PULSADO")
                     true
                 }
                 else -> {

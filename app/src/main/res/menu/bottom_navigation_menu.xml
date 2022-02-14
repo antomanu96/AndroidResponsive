@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/boton1"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:title="Boton1"/>
+    <item
+        android:id="@+id/boton2"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:title="Boton2"/>
+</menu>

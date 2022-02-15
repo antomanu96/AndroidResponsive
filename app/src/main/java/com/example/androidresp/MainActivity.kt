@@ -9,7 +9,7 @@ import com.example.androidresp.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationItemView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : PantallaCompleta() {
     lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

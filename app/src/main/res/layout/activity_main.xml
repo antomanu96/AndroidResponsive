@@ -8,27 +8,34 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tv_categoria1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="249dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/tv_nombre1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_nombre1"
+        app:layout_constraintTop_toTopOf="@+id/tv_nombre1" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="81dp"
         android:layout_height="86dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="342dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="81dp"
         android:layout_height="86dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="441dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -47,73 +54,104 @@
         android:id="@+id/imageView2"
         android:layout_width="81dp"
         android:layout_height="86dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="243dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="243dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_nombre1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="249dp" />
+        app:layout_constraintEnd_toStartOf="@+id/tv_categoria1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_descrip1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="342dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/tv_nombre1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nombre1" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tv_descrip2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="445dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/tv_nombre2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nombre2" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tv_nombre2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="445dp" />
+        app:layout_constraintEnd_toStartOf="@+id/tv_categoria2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_descrip1" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tv_categoria2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="342dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/tv_nombre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_nombre2"
+        app:layout_constraintTop_toTopOf="@+id/tv_nombre2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/tv_descrip3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="284dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/tv_nombre3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nombre3" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/tv_nombre3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="380dp" />
+        app:layout_constraintEnd_toStartOf="@+id/tv_categoria3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/tv_descrip2" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/tv_categoria3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="482dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/tv_nombre3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_nombre3"
+        app:layout_constraintTop_toTopOf="@+id/tv_nombre3"
+        app:layout_constraintVertical_bias="0.0" />
 
     <LinearLayout
         android:layout_width="match_parent"

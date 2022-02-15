@@ -1,4 +1,4 @@
-package com.example.androidresp.reyclerVideoJuegos
+package com.example.androidresp.recyclerVideoJuegos
 
 import android.view.LayoutInflater
 import android.view.View

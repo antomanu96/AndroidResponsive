@@ -11,7 +11,7 @@
         android:id="@+id/btn_subir_foto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="129dp"
+        android:layout_marginTop="139dp"
         android:text="SUBIR FOTO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -90,6 +90,7 @@
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/txt_desc_crear" />
 
+
     <Button
         android:id="@+id/btn_crear"
         android:layout_width="120dp"
@@ -97,32 +98,31 @@
         android:layout_marginTop="92dp"
         android:backgroundTint="@android:color/holo_green_light"
         android:text="CREAR"
-        app:layout_constraintEnd_toStartOf="@+id/btn_salir_crear"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
-    <Button
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_salir_crear"
-        android:layout_width="119dp"
-        android:layout_height="67dp"
-        android:backgroundTint="@android:color/holo_red_light"
-        android:text="VOLVER"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_crear"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_crear"
-        app:layout_constraintTop_toTopOf="@+id/btn_crear" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="171dp"
         android:layout_height="161dp"
-        android:layout_marginTop="57dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toStartOf="@+id/btn_subir_foto"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_salir_crear"
         app:srcCompat="@drawable/game" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

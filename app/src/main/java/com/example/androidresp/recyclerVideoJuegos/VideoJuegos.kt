@@ -7,5 +7,5 @@ data class VideoJuegos(
     val descripcion:String,
     val categoria:String,
     val fecha:Int,
-    val image:Uri
+    val image:String
 )

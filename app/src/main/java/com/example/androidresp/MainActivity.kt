@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.btnSalir -> {
                     Log.d("BOTON3------->", "PULSADO")
+                    salir()
                     true
                 }
                 else -> {
@@ -39,5 +40,10 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+    }
+
+    private fun salir() {
+        finishAffinity()
+        System.exit(0)
     }
 }

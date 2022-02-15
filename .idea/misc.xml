@@ -3,14 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
-        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/drawable/ic_salir.xml" value="0.2595" />
-        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/drawable/ic_ver.xml" value="0.2595" />
-        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_create.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_read.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/videojuegos_layout.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/drawable/ic_add.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/drawable/ic_salir.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/drawable/ic_ver.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout-land/activity_create.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout-large/activity_create.xml" value="0.264" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout-normal-land/activity_create.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout-small-land/activity_create.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout-small/activity_create.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout-xlarge-land/activity_create.xml" value="0.152" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout-xlarge/activity_create.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout/activity_create.xml" value="0.264" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout/activity_read.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout/videojuegos_layout.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/drawable/ic_add.xml" value="0.2703125" />
         <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_create.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_main.xml" value="0.264" />
@@ -19,7 +28,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

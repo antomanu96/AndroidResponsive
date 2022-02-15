@@ -23,6 +23,9 @@ class VideoJuegosAdapter(private val list:MutableList<VideoJuegos>):RecyclerView
 
     override fun onBindViewHolder(holder: VideoJuegosHolder, position: Int) {
         val juego = list[position]
+        holder.binding.tvNombreR.text = juego.nombre
+        holder.binding.tvCategoriaR.text = juego.categoria
+        holder.binding.tvDescripcR.text = juego.descripcion
     }
 
     override fun getItemCount(): Int {

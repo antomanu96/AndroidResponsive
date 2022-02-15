@@ -1,4 +1,4 @@
-package com.example.androidresp.reyclerVideoJuegos
+package com.example.androidresp.recyclerVideoJuegos
 
 data class VideoJuegos(
     val id:Int,

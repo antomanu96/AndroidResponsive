@@ -1,4 +1,4 @@
-package com.example.androidresp.reyclerVideoJuegos
+package com.example.androidresp.recyclerVideoJuegos
 
 import android.view.LayoutInflater
 import android.view.View
@@ -11,8 +11,7 @@ import com.example.androidresp.databinding.ActivityReadBinding
 class VideoJuegosAdapter(private val list:MutableList<VideoJuegos>):RecyclerView.Adapter<VideoJuegosAdapter.VideoJuegosHolder>(){
 
     class VideoJuegosHolder(v: View):RecyclerView.ViewHolder(v) {
-       val binding =ActivityReadBinding.bind(v)
-
+       val binding = ActivityReadBinding.bind(v)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VideoJuegosHolder {

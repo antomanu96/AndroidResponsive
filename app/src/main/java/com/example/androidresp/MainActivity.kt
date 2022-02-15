@@ -1,5 +1,7 @@
 package com.example.androidresp
 
+
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -13,7 +15,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         setListener()
     }
 
@@ -22,15 +23,14 @@ class MainActivity : AppCompatActivity() {
 
             when (item.itemId) {
                 R.id.btnCrear -> {
-                    Log.d("BOTON1------->", "PULSADO")
+                    startActivity(Intent(this,CreateActivity::class.java))
                     true
                 }
                 R.id.btnVer -> {
-                    Log.d("BOTON2------->", "PULSADO")
+                    startActivity(Intent(this,ReadActivity::class.java))
                     true
                 }
                 R.id.btnSalir -> {
-                    Log.d("BOTON3------->", "PULSADO")
                     salir()
                     true
                 }

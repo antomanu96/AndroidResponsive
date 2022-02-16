@@ -52,9 +52,9 @@ class CreateActivity : PantallaCompleta() {
             }
         }
 
-        binding.btnSalirCrear.setOnClickListener {
-            finish()
-        }
+      binding.btnSalirCrear?.setOnClickListener {
+          finish()
+      }
 
     }
 

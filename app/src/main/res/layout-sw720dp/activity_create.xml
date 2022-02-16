@@ -112,11 +112,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btn_salir_crear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btnSalirCrear"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        app:maxImageSize="60dp"
         android:layout_gravity="bottom|right"
         android:layout_margin="16dp"
+        app:fabCustomSize="85dp"
         android:backgroundTint="@android:color/holo_red_dark"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -130,7 +132,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_subir_foto"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_salir_crear"
+        app:layout_constraintTop_toBottomOf="@+id/btnSalirCrear"
         app:srcCompat="@drawable/game" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

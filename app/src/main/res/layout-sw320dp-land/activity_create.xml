@@ -8,21 +8,11 @@
     tools:context=".CreateActivity">
 
 
-    <Button
-        android:id="@+id/btn_subir_foto"
-        android:layout_width="173dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="20dp"
-        android:text="SUBIR FOTO"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="16dp"
         android:text="Nombre"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -113,9 +103,11 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_salir_crear"
-        android:layout_width="45dp"
-        android:layout_height="41dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         android:layout_gravity="bottom|right"
+        app:fabCustomSize="35dp"
+        app:maxImageSize="25dp"
         android:layout_margin="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
@@ -126,12 +118,22 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="88dp"
-        android:layout_height="92dp"
-        android:layout_marginStart="86dp"
-        android:layout_marginTop="125dp"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="96dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/game" />
+
+    <Button
+        android:id="@+id/btn_subir_foto"
+        android:layout_width="173dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:text="SUBIR FOTO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

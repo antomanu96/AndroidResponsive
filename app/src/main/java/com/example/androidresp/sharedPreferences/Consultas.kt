@@ -8,7 +8,7 @@ import java.lang.Exception
 class Consultas {
     var time = System.currentTimeMillis()
     fun create(videojuego: VideoJuegosRegistro){
-        val crearConsulta = "INSERT INTO" + AppUse.TABLA + "(nombre, descripcion, categoria, fecha, image) VALUES ('${videojuego.nombre}','${videojuego.descripcion}','${videojuego.categoria}',${time},${videojuego.image})"
+        val crearConsulta = "INSERT INTO " + AppUse.TABLA + " (nombre, descripcion, categoria, fecha, image) VALUES ('${videojuego.nombre}','${videojuego.descripcion}','${videojuego.categoria}',${time},'${videojuego.image}')"
         val conexion = AppUse.DB.writableDatabase
         try{
             conexion.execSQL(crearConsulta)

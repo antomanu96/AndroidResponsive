@@ -29,7 +29,7 @@ class VideoJuegosAdapter(private val list:MutableList<VideoJuegos>):RecyclerView
         holder.binding.tvNombreR.text = juego.nombre
         holder.binding.tvCategoriaR.text = juego.categoria
         holder.binding.tvDescripcR.text = juego.descripcion
-
+        Log.d("aaaaaaaaaaaaaaaaaaaaaaaaaa", juego.image)
         Picasso.get().load(Uri.parse(juego.image)).into(holder.binding.imageView)
 
     }

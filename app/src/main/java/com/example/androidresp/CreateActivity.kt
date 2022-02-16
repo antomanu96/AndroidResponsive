@@ -38,7 +38,6 @@ class CreateActivity : PantallaCompleta() {
     }
 
     private fun setListener() {
-
         binding.btnSubirFoto.setOnClickListener {
             cambiarFoto()
         }
@@ -46,7 +45,13 @@ class CreateActivity : PantallaCompleta() {
         binding.btnCrear.setOnClickListener {
             if(comprobarCampos()){
                 Consultas().create(VideoJuegosRegistro(nombre,category,descp,uri.toString()))
+                Toast.makeText(baseContext, "Se ha creado la imagen", Toast.LENGTH_LONG).show()
+                finish()
             }
+        }
+
+        binding.btnSalirCrear.setOnClickListener {
+            finish()
         }
 
     }

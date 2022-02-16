@@ -24,6 +24,11 @@ class MainActivity : PantallaCompleta() {
         ultimosDatos()
     }
 
+    override fun onResume() {
+        ultimosDatos()
+        super.onResume()
+    }
+
     private fun ultimosDatos(){
         val leerDatos: MutableList<VideoJuegos> = Consultas().devolverUltimos()
         binding.tvNombre1.setText(leerDatos[0].nombre)

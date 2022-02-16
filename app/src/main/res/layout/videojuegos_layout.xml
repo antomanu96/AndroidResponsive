@@ -20,6 +20,7 @@
             android:layout_height="80dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/img" />
@@ -30,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginTop="4dp"
+            android:layout_marginBottom="5dp"
             android:text="Among Us"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -40,25 +42,27 @@
             android:id="@+id/tv_categoriaR"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginBottom="5dp"
             android:text="Tension, Suspense"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/tv_nombreR"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintBottom_toTopOf="@+id/tv_descripcR"
+            app:layout_constraintStart_toStartOf="@+id/tv_nombreR"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nombreR"
+            app:layout_constraintVertical_bias="0.0" />
 
         <TextView
             android:id="@+id/tv_descripcR"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
             android:text="Es un juego de suspense y tension para jugar con amigos"
             android:textSize="16sp"
             android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/tv_nombreR"
-            app:layout_constraintTop_toBottomOf="@+id/tv_nombreR" />
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tv_nombreR" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

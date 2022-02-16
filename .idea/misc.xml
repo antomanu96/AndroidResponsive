@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-normal-land/activity_create.xml" value="0.152" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-normal-land/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-small/activity_create.xml" value="0.536" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-small/activity_main.xml" value="1.7428571428571429" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-xlarge-land/activity_create.xml" value="0.12" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-xlarge-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-xlarge/activity_create.xml" value="0.12" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-xlarge/activity_main.xml" value="0.11200000000000002" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_create.xml" value="0.12" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_read.xml" value="0.1" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/videojuegos_layout.xml" value="0.152" />
+        <entry key="..\:/Users/Martin/Documents/GitHub/AndroidResponsive/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
         <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23703703703703705" />
         <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/drawable/ic_add.xml" value="0.23703703703703705" />
         <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23703703703703705" />
@@ -24,10 +37,6 @@
         <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/layout/videojuegos_layout.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/Nelson/Escritorio/trabajo/AndroidResponsive/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/drawable/ic_add.xml" value="0.2703125" />
-        <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-normal-land/activity_main.xml" value="0.278125" />
-        <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-small/activity_main.xml" value="1.7428571428571429" />
-        <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-xlarge-land/activity_main.xml" value="0.20859375" />
-        <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/layout-xlarge/activity_main.xml" value="0.190625" />
         <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_create.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/usuario/Documents/GitHub/AndroidResponsive/app/src/main/res/layout/activity_read.xml" value="0.25416666666666665" />

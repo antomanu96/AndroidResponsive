@@ -17,12 +17,12 @@ class MyDataBase:SQLiteOpenHelper(AppUse.appContext, AppUse.BASE, null, AppUse.V
             "fecha INT NOT NULL, "+
             "image TEXT DEFAULT '');"
 
-    val crearDatos1 = "INSERT INTO " + AppUse.TABLA + " (nombre, descripcion, categoria, fecha) " +
-            "VALUES ('God of War','Kratos mata cosas' ,'accion', ${time});"
-    val crearDatos2 = "INSERT INTO " + AppUse.TABLA + " (nombre, descripcion, categoria, fecha) " +
-            "VALUES ('Danganronpa','Cluedo pero con adolescentes' ,'Misterio', ${time});"
-    val crearDatos3 = "INSERT INTO " + AppUse.TABLA + " (nombre, descripcion, categoria, fecha) " +
-            "VALUES ('League of Legends','Porque te quieres tan poco' ,'Sal', ${time});"
+    val crearDatos1 = "INSERT INTO " + AppUse.TABLA + " (nombre, descripcion, categoria, fecha, image) " +
+            "VALUES ('God of War','Kratos mata cosas' ,'accion', ${time},'android.resource://com.example.androidresp/drawable/godofwar' );"
+    val crearDatos2 = "INSERT INTO " + AppUse.TABLA + " (nombre, descripcion, categoria, fecha, image ) " +
+            "VALUES ('Danganronpa','Cluedo pero con adolescentes' ,'Misterio', ${time}, 'android.resource://com.example.androidresp/drawable/danganronpa' );"
+    val crearDatos3 = "INSERT INTO " + AppUse.TABLA + " (nombre, descripcion, categoria, fecha, image ) " +
+            "VALUES ('League of Legends','Porque te quieres tan poco' ,'Sal', ${time}, 'android.resource://com.example.androidresp/drawable/lol');"
 
     override fun onCreate(p0: SQLiteDatabase?) {
         p0?.execSQL(consultaCrear)

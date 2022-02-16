@@ -1,5 +1,7 @@
 package com.example.androidresp.recyclerVideoJuegos
 
+import android.net.Uri
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.androidresp.R
 import com.example.androidresp.databinding.ActivityReadBinding
 import com.example.androidresp.databinding.VideojuegosLayoutBinding
+import com.squareup.picasso.Picasso
 
 
 class VideoJuegosAdapter(private val list:MutableList<VideoJuegos>):RecyclerView.Adapter<VideoJuegosAdapter.VideoJuegosHolder>(){
@@ -26,6 +29,9 @@ class VideoJuegosAdapter(private val list:MutableList<VideoJuegos>):RecyclerView
         holder.binding.tvNombreR.text = juego.nombre
         holder.binding.tvCategoriaR.text = juego.categoria
         holder.binding.tvDescripcR.text = juego.descripcion
+
+        Picasso.get().load(Uri.parse(juego.image)).into(holder.binding.imageView)
+
     }
 
     override fun getItemCount(): Int {

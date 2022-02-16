@@ -45,6 +45,8 @@ class CreateActivity : PantallaCompleta() {
 
         binding.btnCrear.setOnClickListener {
             if(comprobarCampos()){
+                if (uri==null)
+                    uri = Uri.parse("android.resource://com.example.androidresp/drawable/noimage")
                 Consultas().create(VideoJuegosRegistro(nombre,category,descp,uri.toString()))
             }
         }

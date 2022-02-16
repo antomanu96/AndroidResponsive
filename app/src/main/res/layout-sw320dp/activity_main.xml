@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:backgroundTint="#C494D8"
         app:cardCornerRadius="5dp"
@@ -35,14 +35,14 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="70dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/divider6"
                 tools:srcCompat="@tools:sample/avatars" />
@@ -76,7 +76,7 @@
                 android:layout_width="70dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:srcCompat="@tools:sample/avatars" />
@@ -86,7 +86,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:text="TextView"
                 android:textColor="@color/black"
                 android:textStyle="bold"
@@ -98,7 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:text="TextView"
                 android:textColor="@color/black"
                 android:textStyle="bold"
@@ -110,7 +110,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:text="TextView"
                 android:textColor="@color/black"
                 android:textStyle="bold"
@@ -119,14 +119,15 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="70dp"
-                android:layout_height="80dp"
-                android:layout_marginStart="40dp"
+                android:layout_width="64dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="44dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/divider7"
+                app:layout_constraintVertical_bias="0.0"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
@@ -167,18 +168,18 @@
 
     </androidx.cardview.widget.CardView>
 
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="119dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="84dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/icono" />
-
 
     <TextView
         android:id="@+id/tv_descrip2"
@@ -222,15 +223,15 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="60dp"
         android:text="Ultimos 3 añadidos"
         android:textColor="#FFFFFF"
-        android:textSize="34sp"
+        android:textSize="25sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

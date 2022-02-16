@@ -15,7 +15,7 @@ class MyDataBase:SQLiteOpenHelper(AppUse.appContext, AppUse.BASE, null, AppUse.V
             "descripcion TEXT NOT NULL, "+
             "categoria TEXT NOT NULL, "+
             "fecha INT NOT NULL, "+
-            "image String DEFAULT 0);"
+            "image TEXT DEFAULT '');"
 
     val crearDatos1 = "INSERT INTO " + AppUse.TABLA + " (nombre, descripcion, categoria, fecha) " +
             "VALUES ('God of War','Kratos mata cosas' ,'accion', ${time});"
